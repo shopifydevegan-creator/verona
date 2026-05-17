@@ -18,21 +18,9 @@
           "type": "announcement",
           "settings": {
             "link": "",
-            "text": "Today deal sale off <strong>70%</strong>. End in[countdown].  <a href=\"/collections/all\" title=\"All products\">Hurry Up [icon_arrow]</a>",
+            "text": "...بوكسات شوكولاتة فاخرة – جاهزة للتوصيل اليوم بـ 2 دينار فقط داخل الكويت",
             "adding_border": false,
             "countdown": "2025-12-30 15:00:00",
-            "txt_day": "days",
-            "text_highlight": "",
-            "hdt_font_size": 16
-          }
-        },
-        "announcement_fekMnb": {
-          "type": "announcement",
-          "settings": {
-            "link": "",
-            "text": "Welcome to our store",
-            "adding_border": false,
-            "countdown": "2024-12-30 15:00:00",
             "txt_day": "days",
             "text_highlight": "",
             "hdt_font_size": 16
@@ -40,25 +28,24 @@
         }
       },
       "block_order": [
-        "announcement_izeF7X",
-        "announcement_fekMnb"
+        "announcement_izeF7X"
       ],
       "settings": {
         "show_line_separator": false,
-        "close_btn": "1",
+        "close_btn": "0",
         "height": 45,
-        "fontsize": 12,
-        "design": "slider",
+        "fontsize": 13,
+        "design": "marquee",
         "hdt_using_image_icon": false,
         "space_item": 30,
         "speed": 0.3,
         "direction": "rtl",
-        "pausable": false,
+        "pausable": true,
         "effect": "carousel",
         "au_time": 5,
         "pause_when_hover": true,
         "colors_by_section": true,
-        "color_scheme": "scheme-6707cc8e-6558-49d9-8759-f7d934d9fe4f",
+        "color_scheme": "scheme-81a6cfc8-dfb7-4e53-8366-705cdfe2b73d",
         "background_opacity": 1,
         "full_width": true
       }
@@ -109,6 +96,7 @@
         "text_yBAEgJ",
         "cur_4KAVdD"
       ],
+      "disabled": true,
       "custom_css": [
         "strong {color: #ec0101; font-weight: 400;}"
       ],
@@ -128,10 +116,12 @@
         "mega_block_7DJYPE": {
           "type": "_mega_block",
           "settings": {
+            "is_categories": false,
             "title": "Home",
             "mega_menu_colors": "",
             "mega_width": "full",
             "mega_position": "bottom",
+            "mega_position_categories": "top",
             "mega_custom_width": 1200,
             "mega_presets": "html",
             "html": "",
@@ -152,10 +142,12 @@
         "mega_block_PKdDaN": {
           "type": "_mega_block",
           "settings": {
+            "is_categories": false,
             "title": "Shop",
             "mega_menu_colors": "scheme-1",
             "mega_width": "custom",
             "mega_position": "center_on_screen",
+            "mega_position_categories": "top",
             "mega_custom_width": 1200,
             "mega_presets": "mega_shop",
             "html": "",
@@ -179,10 +171,12 @@
         "mega_block_ntakNQ": {
           "type": "_mega_block",
           "settings": {
+            "is_categories": false,
             "title": "Products",
             "mega_menu_colors": "",
             "mega_width": "custom",
             "mega_position": "center_on_screen",
+            "mega_position_categories": "top",
             "mega_custom_width": 1200,
             "mega_presets": "mega_product",
             "html": "",
@@ -203,10 +197,12 @@
         "mega_block_7qDM6U": {
           "type": "_mega_block",
           "settings": {
+            "is_categories": false,
             "title": "Sale",
             "mega_menu_colors": "scheme-1",
             "mega_width": "custom",
             "mega_position": "center_on_screen",
+            "mega_position_categories": "top",
             "mega_custom_width": 1200,
             "mega_presets": "mega_sale",
             "html": "",
@@ -237,10 +233,12 @@
         "mega_block_MtwFkx": {
           "type": "_mega_block",
           "settings": {
+            "is_categories": false,
             "title": "Pages",
             "mega_menu_colors": "",
             "mega_width": "custom",
             "mega_position": "center_on_screen",
+            "mega_position_categories": "top",
             "mega_custom_width": 1200,
             "mega_presets": "mega_page",
             "html": "",
@@ -261,10 +259,12 @@
         "mega_block_Jbe4K9": {
           "type": "_mega_block",
           "settings": {
+            "is_categories": false,
             "title": "Blog",
             "mega_menu_colors": "scheme-1",
             "mega_width": "custom",
             "mega_position": "center_on_screen",
+            "mega_position_categories": "top",
             "mega_custom_width": 1200,
             "mega_presets": "mega_blog",
             "html": "",
@@ -307,9 +307,9 @@
         "header_layout": "logo_left",
         "header_fullwidth": true,
         "header_height": 70,
-        "logo": "shopify://shop_images/kalles.svg",
-        "logo_width": 95,
-        "header_colors": "",
+        "logo": "shopify://shop_images/logo_3dba1dc1-7ca8-42ad-9ab8-d78c4781a6e8.png",
+        "logo_width": 65,
+        "header_colors": "scheme-8bb4ec20-1e62-4ffd-8bb5-8884478016f2",
         "main_menu": "main-menu",
         "lazy_mn": false,
         "menu_position": "center",
@@ -324,8 +324,10 @@
         "h_icon": "kalles",
         "hover_icon": "2",
         "search_type": "icon",
+        "show_currency": false,
+        "show_language": false,
         "enabled_user": true,
-        "enabled_wishlist": true,
+        "enabled_wishlist": false,
         "enabled_cart": true,
         "cart_des": "1",
         "header_socials": false,
