@@ -9,7 +9,7 @@
  */
 {
   "current": {
-    "purchase_code": "",
+    "purchase_code": "5a512de3-bc4c-43c1-9bfd-f71796eebd46",
     "color_scheme_body": "scheme-1",
     "color_focus": "#56cfe1",
     "color_scheme_dialog": "scheme-1",
@@ -19,11 +19,15 @@
     "badge_preorder": "#0774d7",
     "badge_custom": "#00a500",
     "tooltip_bg": "#383838",
-    "library_font": "shopify",
+    "library_font": "google",
     "font_family_shopify_1": "poppins_n4",
     "font_family_shopify_2": "poppins_n4",
     "font_family_shopify_3": "libre_baskerville_n4",
+    "embed_google_font": "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin=\"\">\n<link href=\"https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&amp;display=swap\" rel=\"stylesheet\">",
     "rules_google_font": "",
+    "font_family_1": "Noto Sans Arabic, sans-serif",
+    "font_family_2": "Noto Sans Arabic, sans-serif",
+    "font_family_3": "Noto Sans Arabic, sans-serif",
     "font_custom_heading": "--f_family_1",
     "hd_fweight": 600,
     "heading_scale": 100,
@@ -266,6 +270,48 @@
           "sale_price": "#ec0101",
           "input_primary": "#ffffff",
           "input_secondary": "#686868"
+        }
+      },
+      "scheme-8bb4ec20-1e62-4ffd-8bb5-8884478016f2": {
+        "settings": {
+          "text": "#7e6e68",
+          "text2": "#878787",
+          "background": "#1a2a3a",
+          "background_gradient": "",
+          "background2": "#f2f2f2",
+          "button": "#222222",
+          "button_label": "#ffffff",
+          "button_border": "#222222",
+          "secondary_button_label": "#222222",
+          "accent_color": "#56cfe1",
+          "line_border": "#dddddd",
+          "overlay": "#000000",
+          "pr_text": "#222222",
+          "price": "#696969",
+          "sale_price": "#ec0101",
+          "input_primary": "#ffffff",
+          "input_secondary": "#878787"
+        }
+      },
+      "scheme-81a6cfc8-dfb7-4e53-8366-705cdfe2b73d": {
+        "settings": {
+          "text": "#1a2a3a",
+          "text2": "#878787",
+          "background": "#c6a490",
+          "background_gradient": "",
+          "background2": "#f2f2f2",
+          "button": "#222222",
+          "button_label": "#ffffff",
+          "button_border": "#222222",
+          "secondary_button_label": "#222222",
+          "accent_color": "#56cfe1",
+          "line_border": "#dddddd",
+          "overlay": "#000000",
+          "pr_text": "#222222",
+          "price": "#696969",
+          "sale_price": "#ec0101",
+          "input_primary": "#ffffff",
+          "input_secondary": "#878787"
         }
       }
     }
