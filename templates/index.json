@@ -133,8 +133,8 @@
         "slide_item_N8ipFR"
       ],
       "custom_css": [
-        ".hdt-slider .hdt-navigation.hdt-style-simple {position: absolute; top: 95%; transform: translateY(-54%); justify-content: center; gap: 80px;}",
-        "@media(max-width:767px){.hdt-slider .hdt-navigation.hdt-style-simple {top: 94%; }}",
+        ".hdt-slider .hdt-navigation.hdt-style-simple {position: absolute; top: auto; bottom: -14px; justify-content: center; gap: 80px;}",
+        "@media (max-width: 767px) {.hdt-slider .hdt-navigation.hdt-style-simple {bottom: -2px; }}",
         ".hdt-slider .hdt-navigation button {width: 8px; color: #d0b4a6;}",
         ".hdt-slider .hdt-pagination button.hdt-slider__dot--selected {background-color: #d0b4a6; border-color: #d0b4a6;}"
       ],
@@ -170,123 +170,477 @@
         "pd_mb": ",,22px,"
       }
     },
-    "collections_list_manual_eErqxt": {
-      "type": "collections-list-manual",
+    "collections_list_TYmCMc": {
+      "type": "collections-list",
       "blocks": {
-        "collection_manual_item_tXNANF": {
-          "type": "_collection_manual-item",
+        "collection_item_P8UPXm": {
+          "type": "_collection_item",
           "settings": {
-            "collection": "women",
-            "title": "Women",
+            "collection": "",
+            "hdt_collection_list_svg": "",
+            "svg_width": 60,
+            "svg_width_mb": 40,
+            "title": "Collection name",
             "collection_link": "",
-            "column_width": "6",
-            "row_count": 2,
-            "tb_column_width": "6",
-            "tb_row_count": 1,
-            "mb_column_width": "2",
-            "mb_row_count": 2
+            "col_dk": "6",
+            "col_tb": "6",
+            "col_mb": "6"
           },
           "blocks": {}
         },
-        "collection_manual_item_AEWjQE": {
-          "type": "_collection_manual-item",
+        "collection_item_Nqn9kr": {
+          "type": "_collection_item",
           "settings": {
-            "collection": "accessories",
-            "title": "Accessories",
+            "collection": "",
+            "hdt_collection_list_svg": "",
+            "svg_width": 60,
+            "svg_width_mb": 40,
+            "title": "Collection name",
             "collection_link": "",
-            "column_width": "3",
-            "row_count": 1,
-            "tb_column_width": "6",
-            "tb_row_count": 1,
-            "mb_column_width": "1",
-            "mb_row_count": 1
+            "col_dk": "6",
+            "col_tb": "6",
+            "col_mb": "6"
           },
           "blocks": {}
         },
-        "collection_manual_item_YDPY8G": {
-          "type": "_collection_manual-item",
+        "collection_item_4m3W7A": {
+          "type": "_collection_item",
           "settings": {
-            "collection": "watch",
-            "title": "Watches",
+            "collection": "",
+            "hdt_collection_list_svg": "",
+            "svg_width": 60,
+            "svg_width_mb": 40,
+            "title": "Collection name",
             "collection_link": "",
-            "column_width": "3",
-            "row_count": 2,
-            "tb_column_width": "6",
-            "tb_row_count": 1,
-            "mb_column_width": "1",
-            "mb_row_count": 2
+            "col_dk": "6",
+            "col_tb": "6",
+            "col_mb": "6"
           },
           "blocks": {}
         },
-        "collection_manual_item_D67f4i": {
-          "type": "_collection_manual-item",
+        "collection_item_HAHUpU": {
+          "type": "_collection_item",
           "settings": {
-            "collection": "footwear",
-            "title": "Footwear",
+            "collection": "",
+            "hdt_collection_list_svg": "",
+            "svg_width": 60,
+            "svg_width_mb": 40,
+            "title": "Collection name",
             "collection_link": "",
-            "column_width": "3",
-            "row_count": 1,
-            "tb_column_width": "6",
-            "tb_row_count": 1,
-            "mb_column_width": "1",
-            "mb_row_count": 1
+            "col_dk": "6",
+            "col_tb": "6",
+            "col_mb": "6"
           },
           "blocks": {}
         },
-        "collections-list-manual-heading": {
+        "section-heading-collections-list": {
           "type": "section-heading",
-          "disabled": true,
           "static": true,
           "settings": {
-            "design_heading": "2",
+            "design_heading": "1",
             "horizontal": false,
             "alignment": "center",
-            "heading_gap": 0,
+            "heading_gap": 15,
             "margin_bottom": 30
           },
-          "blocks": {}
+          "blocks": {
+            "heading_section_dXGRj9": {
+              "type": "_heading_section",
+              "name": "t:blocks.section_heading.name",
+              "settings": {
+                "heading": "الأقسام الرئيسية",
+                "line_height": "",
+                "heading_size": "h3",
+                "text_color": "hdt-s-text",
+                "font_size_heading_lg": 50,
+                "font_size_heading": 24,
+                "letter_spacing_heading": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_section_dXGRj9"
+          ]
         }
       },
       "block_order": [
-        "collection_manual_item_tXNANF",
-        "collection_manual_item_AEWjQE",
-        "collection_manual_item_YDPY8G",
-        "collection_manual_item_D67f4i"
+        "collection_item_P8UPXm",
+        "collection_item_Nqn9kr",
+        "collection_item_4m3W7A",
+        "collection_item_HAHUpU"
       ],
+      "name": "t:sections.collections-list.name",
       "settings": {
-        "collection_des": "1",
-        "rounded": "",
+        "collection_list": [
+          "العروض-الخاصة",
+          "التوزيعات",
+          "الموالح",
+          "بوكسات-الشوكولاتة",
+          "الكيك"
+        ],
+        "collection_des": "8",
         "content_size": "base",
-        "font_size_text_lg": 22,
-        "font_size_text_md": 14,
-        "font_size_text": 14,
-        "font_weight_text": 400,
-        "letter_spacing_text": 0,
         "content_weight": "semibold",
-        "content_position": "end-center",
+        "content_position": "center",
         "content_space": 20,
         "show_count": false,
         "count_label": "Products",
         "image_rounded": false,
         "enable_border": false,
         "image_padding": 30,
-        "img_effect": "zoom",
+        "image_ratio": "adapt_image",
+        "image_size": true,
+        "img_effect": "none",
         "b_effect": "none",
-        "row_height": 300,
-        "row_height_tb": 300,
-        "row_height_mb": 200,
-        "space_items": "var(--spacing-x)",
-        "space_items_tb": "var(--spacing-x)",
-        "space_items_mb": "var(--spacing-x)",
+        "col_dk": "4",
+        "col_tb": "4",
+        "col_mb": "2",
+        "space_items": "x",
+        "layout_mode": "carousel",
+        "loop": false,
+        "autoplay": 0,
+        "pauseOnHover": false,
+        "navUI": false,
+        "nav_position": "default",
+        "nav_visible": "always",
+        "nav_style": "default",
+        "nav_shape": "default",
+        "nav_size": "small",
+        "nav_hide_mobile": false,
+        "dotUI": false,
+        "pag_style": "default",
+        "pag_rounded": true,
+        "pag_space": 10,
+        "pag_mgt": 10,
+        "pag_hide_mobile": false,
+        "colors_by_section": true,
+        "color_scheme": "scheme-f9f9abd1-e237-4c68-b90e-adf2f13283a6",
+        "background_opacity": 1,
+        "section_layout": "full_width",
+        "hdt_background_parallax": false,
+        "mg": ",,50px,",
+        "mg_mb": ",,30px,",
+        "pd": "",
+        "pd_mb": ""
+      }
+    },
+    "shipping_VHTMXh": {
+      "type": "shipping",
+      "blocks": {
+        "shipping_pPUGxM": {
+          "type": "_shipping",
+          "settings": {
+            "icon_themes": "car",
+            "icon": ""
+          },
+          "blocks": {
+            "heading_Mx6t6z": {
+              "type": "heading",
+              "settings": {
+                "heading": "<h4>FREE SHIPPING</h4>",
+                "hidden_br_mobile": false,
+                "hidden_on_mobile": false,
+                "line_height": "",
+                "font_weight": "normal",
+                "heading_size": "h6",
+                "text_color": "hdt-s-text",
+                "font_size_heading_lg": 16,
+                "font_size_heading": 24,
+                "letter_spacing_heading": 0
+              },
+              "blocks": {}
+            },
+            "spacer_mBEakn": {
+              "type": "spacer",
+              "settings": {
+                "direction": false,
+                "space_lg": 4,
+                "space_md": 4,
+                "space": 4
+              },
+              "blocks": {}
+            },
+            "text_aVqJEz": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Free shipping on all US orders or orders above $100</p>",
+                "hidden_br_mobile": false,
+                "hidden_on_mobile": false,
+                "ffamily": "",
+                "text_size": "base",
+                "line_height": "",
+                "font_weight": "normal",
+                "text_color": "hdt-text-secondary",
+                "countdown": "2025-12-30 15:00:00",
+                "txt_day": "days",
+                "font_size_text_lg": 16,
+                "font_size_text": 14,
+                "letter_spacing_text": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_Mx6t6z",
+            "spacer_mBEakn",
+            "text_aVqJEz"
+          ]
+        },
+        "shipping_qVAVgr": {
+          "type": "_shipping",
+          "settings": {
+            "icon_themes": "help",
+            "icon": ""
+          },
+          "blocks": {
+            "heading_aT3hXY": {
+              "type": "heading",
+              "settings": {
+                "heading": "<h3>SUPPORT 24/7</h3>",
+                "hidden_br_mobile": false,
+                "hidden_on_mobile": false,
+                "line_height": "",
+                "font_weight": "normal",
+                "heading_size": "h6",
+                "text_color": "hdt-s-text",
+                "font_size_heading_lg": 16,
+                "font_size_heading": 24,
+                "letter_spacing_heading": 0
+              },
+              "blocks": {}
+            },
+            "spacer_CEhe9c": {
+              "type": "spacer",
+              "settings": {
+                "direction": false,
+                "space_lg": 4,
+                "space_md": 4,
+                "space": 4
+              },
+              "blocks": {}
+            },
+            "text_fPt8P7": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Contact us 24 hours a day, 7 days a week</p>",
+                "hidden_br_mobile": false,
+                "hidden_on_mobile": false,
+                "ffamily": "",
+                "text_size": "base",
+                "line_height": "",
+                "font_weight": "normal",
+                "text_color": "hdt-text-secondary",
+                "countdown": "2025-12-30 15:00:00",
+                "txt_day": "days",
+                "font_size_text_lg": 16,
+                "font_size_text": 14,
+                "letter_spacing_text": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_aT3hXY",
+            "spacer_CEhe9c",
+            "text_fPt8P7"
+          ]
+        },
+        "shipping_DhfxAi": {
+          "type": "_shipping",
+          "settings": {
+            "icon_themes": "refesh",
+            "icon": ""
+          },
+          "blocks": {
+            "heading_kfEtCt": {
+              "type": "heading",
+              "settings": {
+                "heading": "<h3>30 DAYS RETURN</h3>",
+                "hidden_br_mobile": false,
+                "hidden_on_mobile": false,
+                "line_height": "",
+                "font_weight": "normal",
+                "heading_size": "h6",
+                "text_color": "hdt-s-text",
+                "font_size_heading_lg": 16,
+                "font_size_heading": 24,
+                "letter_spacing_heading": 0
+              },
+              "blocks": {}
+            },
+            "spacer_wUP6a4": {
+              "type": "spacer",
+              "settings": {
+                "direction": false,
+                "space_lg": 4,
+                "space_md": 4,
+                "space": 4
+              },
+              "blocks": {}
+            },
+            "text_x7mC7x": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Simply return it within 30 days for an exchange.</p>",
+                "hidden_br_mobile": false,
+                "hidden_on_mobile": false,
+                "ffamily": "",
+                "text_size": "base",
+                "line_height": "",
+                "font_weight": "normal",
+                "text_color": "hdt-text-secondary",
+                "countdown": "2025-12-30 15:00:00",
+                "txt_day": "days",
+                "font_size_text_lg": 16,
+                "font_size_text": 14,
+                "letter_spacing_text": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_kfEtCt",
+            "spacer_wUP6a4",
+            "text_x7mC7x"
+          ]
+        },
+        "shipping_piizNc": {
+          "type": "_shipping",
+          "settings": {
+            "icon_themes": "door-lock",
+            "icon": ""
+          },
+          "blocks": {
+            "heading_yYL8n9": {
+              "type": "heading",
+              "settings": {
+                "heading": "<h3>100% PAYMENT SECURE</h3>",
+                "hidden_br_mobile": false,
+                "hidden_on_mobile": false,
+                "line_height": "",
+                "font_weight": "normal",
+                "heading_size": "h6",
+                "text_color": "hdt-s-text",
+                "font_size_heading_lg": 16,
+                "font_size_heading": 24,
+                "letter_spacing_heading": 0
+              },
+              "blocks": {}
+            },
+            "spacer_zVCjrm": {
+              "type": "spacer",
+              "settings": {
+                "direction": false,
+                "space_lg": 4,
+                "space_md": 4,
+                "space": 4
+              },
+              "blocks": {}
+            },
+            "text_H7NDTe": {
+              "type": "text",
+              "settings": {
+                "text": "<p>We ensure secure payment with PEV</p>",
+                "hidden_br_mobile": false,
+                "hidden_on_mobile": false,
+                "ffamily": "",
+                "text_size": "base",
+                "line_height": "",
+                "font_weight": "normal",
+                "text_color": "hdt-text-secondary",
+                "countdown": "2025-12-30 15:00:00",
+                "txt_day": "days",
+                "font_size_text_lg": 16,
+                "font_size_text": 14,
+                "letter_spacing_text": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_yYL8n9",
+            "spacer_zVCjrm",
+            "text_H7NDTe"
+          ]
+        },
+        "section-heading-shipping": {
+          "type": "section-heading",
+          "static": true,
+          "settings": {
+            "design_heading": "1",
+            "horizontal": false,
+            "alignment": "center",
+            "heading_gap": 15,
+            "margin_bottom": 30
+          },
+          "blocks": {
+            "heading_section_tXh3YY": {
+              "type": "_heading_section",
+              "name": "t:blocks.section_heading.name",
+              "settings": {
+                "heading": "ما عليك إلا أن تختار فيرونا",
+                "line_height": "",
+                "heading_size": "h3",
+                "text_color": "hdt-s-text",
+                "font_size_heading_lg": 50,
+                "font_size_heading": 24,
+                "letter_spacing_heading": 0
+              },
+              "blocks": {}
+            },
+            "sub_heading_section_6m86Qd": {
+              "type": "_sub_heading_section",
+              "name": "t:blocks.section_heading.sub_heading",
+              "settings": {
+                "text": "<p>تجربة فاخرة تجمع بين الجودة والذوق الرفيع.</p>",
+                "hidden_br_mobile": false,
+                "hidden_on_mobile": false,
+                "text_size": "base",
+                "text_color": "hdt-s-text",
+                "font_size_text_lg": 16,
+                "font_size_text": 14,
+                "letter_spacing_text": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_section_tXh3YY",
+            "sub_heading_section_6m86Qd"
+          ]
+        }
+      },
+      "block_order": [
+        "shipping_pPUGxM",
+        "shipping_qVAVgr",
+        "shipping_DhfxAi",
+        "shipping_piizNc"
+      ],
+      "name": "t:sections.shipping.name",
+      "settings": {
+        "content_align": "left",
+        "align_center": false,
+        "icon_design": "default",
+        "use_border": false,
+        "space_padding": false,
+        "icon_size": "medium",
+        "icon_color": "hdt-icon-secondary",
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "1",
+        "carousel_mobile": true,
+        "dot_color": "",
+        "dot_rounded": true,
         "colors_by_section": false,
         "color_scheme": "scheme-1",
         "background_opacity": 0,
-        "section_layout": "wrapper_container",
+        "section_layout": "container",
         "hdt_background_parallax": false,
-        "mg": "",
-        "mg_mb": "",
-        "pd": ",,100px,",
-        "pd_mb": ",,75px,"
+        "mg": ",,50px,",
+        "mg_mb": ",,30px,",
+        "pd": "40px,,40px,",
+        "pd_mb": "20px,,20px,"
       }
     },
     "featured_collection_PTq36A": {
@@ -1487,7 +1841,8 @@
   },
   "order": [
     "slideshow_EVrUzi",
-    "collections_list_manual_eErqxt",
+    "collections_list_TYmCMc",
+    "shipping_VHTMXh",
     "featured_collection_PTq36A",
     "banner_VyWanM",
     "featured_collection_CKUpWw",
