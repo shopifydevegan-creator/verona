@@ -57,7 +57,7 @@
     {{ content_for_header }}
     {%- endunless -%}
     {% comment %} implement the custom css files {% endcomment %}
-    {{ 'custom_general.css' | asset_url | stylesheet_tag}}
+      {{ 'custom_general.css' | asset_url | stylesheet_tag}}
     {% comment %} {% if template.name == "index" %}
       {{ 'custom_index.css' | asset_url | stylesheet_tag }}
     {% endif %}
