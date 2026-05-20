@@ -289,7 +289,7 @@
         "image_rounded": false,
         "enable_border": false,
         "image_padding": 30,
-        "image_ratio": "adapt_image",
+        "image_ratio": "square",
         "image_size": true,
         "img_effect": "none",
         "b_effect": "none",
@@ -700,6 +700,24 @@
             "margin_bottom": 30
           },
           "blocks": {
+            "heading_icon_wG4c9a": {
+              "type": "_heading_icon",
+              "name": "t:blocks.icon.name",
+              "settings": {
+                "svg": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\">\n  <path fill=\"#F5A623\" stroke=\"#FFA500\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" \n        d=\"M12,17.27L18.18,21l-1.64-7.03L22,9.24l-7.19-0.61L12,2L9.19,8.63L2,9.24l5.46,4.73L5.82,21L12,17.27z\"/>\n</svg>\n<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\">\n  <path fill=\"#F5A623\" stroke=\"#FFA500\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" \n        d=\"M12,17.27L18.18,21l-1.64-7.03L22,9.24l-7.19-0.61L12,2L9.19,8.63L2,9.24l5.46,4.73L5.82,21L12,17.27z\"/>\n</svg>\n<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\">\n  <path fill=\"#F5A623\" stroke=\"#FFA500\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" \n        d=\"M12,17.27L18.18,21l-1.64-7.03L22,9.24l-7.19-0.61L12,2L9.19,8.63L2,9.24l5.46,4.73L5.82,21L12,17.27z\"/>\n</svg>\n<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\">\n  <path fill=\"#F5A623\" stroke=\"#FFA500\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" \n        d=\"M12,17.27L18.18,21l-1.64-7.03L22,9.24l-7.19-0.61L12,2L9.19,8.63L2,9.24l5.46,4.73L5.82,21L12,17.27z\"/>\n</svg>\n<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\">\n  <path fill=\"#F5A623\" stroke=\"#FFA500\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" \n        d=\"M12,17.27L18.18,21l-1.64-7.03L22,9.24l-7.19-0.61L12,2L9.19,8.63L2,9.24l5.46,4.73L5.82,21L12,17.27z\"/>\n</svg>",
+                "text_color": "hdt-s-text",
+                "line": false,
+                "width": "auto",
+                "width_dk": 30,
+                "width_tb": 30,
+                "width_mb": 30,
+                "mg": ",,10px,",
+                "mg_mb": "",
+                "pd": "",
+                "pd_mb": ""
+              },
+              "blocks": {}
+            },
             "heading_section_yRzXQq": {
               "type": "_heading_section",
               "name": "t:blocks.section_heading.name",
@@ -716,6 +734,7 @@
             }
           },
           "block_order": [
+            "heading_icon_wG4c9a",
             "heading_section_yRzXQq"
           ]
         }
