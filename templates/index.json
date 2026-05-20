@@ -773,104 +773,6 @@
         "pd_mb": "16px,,16px,"
       }
     },
-    "featured_collection_PTq36A": {
-      "type": "featured-collection",
-      "blocks": {
-        "product_grid_JJ7DRU": {
-          "type": "_product-grid",
-          "settings": {
-            "collection": "women",
-            "products_count": 8,
-            "product_list": [],
-            "pr_border": "none",
-            "product_des": "1",
-            "image_ratio": "adapt_image",
-            "image_size": true,
-            "show_vendor": false,
-            "col_dk": "4",
-            "col_tb": "3",
-            "col_mb": "2",
-            "space_items": "x",
-            "pagination": true,
-            "pagination_color_scheme": "",
-            "pagination_type": "load_more",
-            "enable_progressbar": false,
-            "paginate_pos": "center",
-            "dis_pagination": 30,
-            "btn_label": "Load more",
-            "btn_style": "hdt-btn-outline-hover-accent",
-            "endable_btn_icon": false,
-            "size": "xl",
-            "btn_fw": "semibold",
-            "rounded": "",
-            "font_size_btn": 14,
-            "padding_btn": 30,
-            "min_width_btn": 100,
-            "min_width_dt_btn": 100,
-            "min_height_btn": 40
-          },
-          "blocks": {}
-        },
-        "pr-heading": {
-          "type": "section-heading",
-          "static": true,
-          "settings": {
-            "design_heading": "2",
-            "horizontal": false,
-            "alignment": "center",
-            "heading_gap": 0,
-            "margin_bottom": 30
-          },
-          "blocks": {
-            "heading_section_rgjWE7": {
-              "type": "_heading_section",
-              "settings": {
-                "heading": "TRENDING",
-                "line_height": "",
-                "heading_size": "h5",
-                "text_color": "hdt-s-text",
-                "font_size_heading_lg": 50,
-                "font_size_heading": 24,
-                "letter_spacing_heading": 0
-              },
-              "blocks": {}
-            },
-            "sub_heading_section_URb48x": {
-              "type": "_sub_heading_section",
-              "settings": {
-                "text": "<p><em>Top view in this week</em></p>",
-                "hidden_br_mobile": false,
-                "hidden_on_mobile": false,
-                "text_size": "base",
-                "text_color": "hdt-text-secondary",
-                "font_size_text_lg": 16,
-                "font_size_text": 14,
-                "letter_spacing_text": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "heading_section_rgjWE7",
-            "sub_heading_section_URb48x"
-          ]
-        }
-      },
-      "block_order": [
-        "product_grid_JJ7DRU"
-      ],
-      "settings": {
-        "colors_by_section": false,
-        "color_scheme": "scheme-1",
-        "background_opacity": 0,
-        "section_layout": "container",
-        "hdt_background_parallax": false,
-        "mg": "",
-        "mg_mb": "",
-        "pd": ",,90px,",
-        "pd_mb": ",,67px,"
-      }
-    },
     "shipping_9pXycT": {
       "type": "shipping",
       "blocks": {
@@ -878,236 +780,87 @@
           "type": "_shipping",
           "settings": {
             "icon_themes": "car",
+            "image_icon": "shopify://shop_images/chocolate_1.png",
             "icon": ""
           },
           "blocks": {
             "heading_GVDr7i": {
               "type": "heading",
               "settings": {
-                "heading": "<p>FREE SHIPPING</p>",
+                "heading": "<h3>جودة عالية</h3>",
                 "hidden_br_mobile": false,
                 "hidden_on_mobile": false,
                 "line_height": "",
                 "font_weight": "medium",
                 "heading_size": "h6",
-                "text_color": "hdt-s-text",
+                "text_color": "hdt-text-secondary",
                 "font_size_heading_lg": 16,
                 "font_size_heading": 24,
                 "letter_spacing_heading": 0
               },
               "blocks": {}
-            },
-            "spacer_NEFf8W": {
-              "type": "spacer",
-              "settings": {
-                "direction": false,
-                "space_lg": 4,
-                "space_md": 4,
-                "space": 4
-              },
-              "blocks": {}
-            },
-            "text_dMrMq7": {
-              "type": "text",
-              "settings": {
-                "text": "<p>Free shipping on all US orders or orders above $100</p>",
-                "hidden_br_mobile": false,
-                "hidden_on_mobile": false,
-                "ffamily": "",
-                "text_size": "sm",
-                "line_height": "",
-                "font_weight": "normal",
-                "text_color": "hdt-text-secondary",
-                "countdown": "2025-12-30 15:00:00",
-                "txt_day": "days",
-                "font_size_text_lg": 16,
-                "font_size_text": 14,
-                "letter_spacing_text": 0
-              },
-              "blocks": {}
             }
           },
           "block_order": [
-            "heading_GVDr7i",
-            "spacer_NEFf8W",
-            "text_dMrMq7"
+            "heading_GVDr7i"
           ]
         },
         "shipping_CirHre": {
           "type": "_shipping",
           "settings": {
-            "icon_themes": "help",
+            "icon_themes": "truck",
+            "image_icon": "shopify://shop_images/express-delivery_1.png",
             "icon": ""
           },
           "blocks": {
             "heading_K8g4ny": {
               "type": "heading",
               "settings": {
-                "heading": "<p>SUPPORT 24/7</p>",
+                "heading": "<h3>توصيل سريع</h3>",
                 "hidden_br_mobile": false,
                 "hidden_on_mobile": false,
                 "line_height": "",
                 "font_weight": "medium",
                 "heading_size": "h6",
-                "text_color": "hdt-s-text",
+                "text_color": "hdt-text-secondary",
                 "font_size_heading_lg": 16,
                 "font_size_heading": 24,
                 "letter_spacing_heading": 0
               },
               "blocks": {}
-            },
-            "spacer_pqetkW": {
-              "type": "spacer",
-              "settings": {
-                "direction": false,
-                "space_lg": 4,
-                "space_md": 4,
-                "space": 4
-              },
-              "blocks": {}
-            },
-            "text_CUr68b": {
-              "type": "text",
-              "settings": {
-                "text": "<p>Contact us 24 hours a day, 7 days a week</p>",
-                "hidden_br_mobile": false,
-                "hidden_on_mobile": false,
-                "ffamily": "",
-                "text_size": "sm",
-                "line_height": "",
-                "font_weight": "normal",
-                "text_color": "hdt-text-secondary",
-                "countdown": "2025-12-30 15:00:00",
-                "txt_day": "days",
-                "font_size_text_lg": 16,
-                "font_size_text": 14,
-                "letter_spacing_text": 0
-              },
-              "blocks": {}
             }
           },
           "block_order": [
-            "heading_K8g4ny",
-            "spacer_pqetkW",
-            "text_CUr68b"
+            "heading_K8g4ny"
           ]
         },
         "shipping_Qqget3": {
           "type": "_shipping",
           "settings": {
             "icon_themes": "refesh",
+            "image_icon": "shopify://shop_images/pagake.png",
             "icon": ""
           },
           "blocks": {
             "heading_4YwXcW": {
               "type": "heading",
               "settings": {
-                "heading": "<p>30 DAYS RETURN</p>",
+                "heading": "<h3>تغليف فاخر</h3>",
                 "hidden_br_mobile": false,
                 "hidden_on_mobile": false,
                 "line_height": "",
                 "font_weight": "medium",
                 "heading_size": "h6",
-                "text_color": "hdt-s-text",
+                "text_color": "hdt-text-secondary",
                 "font_size_heading_lg": 16,
                 "font_size_heading": 24,
                 "letter_spacing_heading": 0
               },
               "blocks": {}
-            },
-            "spacer_CFWFcq": {
-              "type": "spacer",
-              "settings": {
-                "direction": false,
-                "space_lg": 4,
-                "space_md": 4,
-                "space": 4
-              },
-              "blocks": {}
-            },
-            "text_XtgbKd": {
-              "type": "text",
-              "settings": {
-                "text": "<p>Simply return it within 30 days for an exchange.</p>",
-                "hidden_br_mobile": false,
-                "hidden_on_mobile": false,
-                "ffamily": "",
-                "text_size": "sm",
-                "line_height": "",
-                "font_weight": "normal",
-                "text_color": "hdt-text-secondary",
-                "countdown": "2025-12-30 15:00:00",
-                "txt_day": "days",
-                "font_size_text_lg": 16,
-                "font_size_text": 14,
-                "letter_spacing_text": 0
-              },
-              "blocks": {}
             }
           },
           "block_order": [
-            "heading_4YwXcW",
-            "spacer_CFWFcq",
-            "text_XtgbKd"
-          ]
-        },
-        "shipping_iBieM3": {
-          "type": "_shipping",
-          "settings": {
-            "icon_themes": "door-lock",
-            "icon": ""
-          },
-          "blocks": {
-            "heading_FkL9Ep": {
-              "type": "heading",
-              "settings": {
-                "heading": "<p>100% PAYMENT SECURE</p>",
-                "hidden_br_mobile": false,
-                "hidden_on_mobile": false,
-                "line_height": "",
-                "font_weight": "medium",
-                "heading_size": "h6",
-                "text_color": "hdt-s-text",
-                "font_size_heading_lg": 16,
-                "font_size_heading": 24,
-                "letter_spacing_heading": 0
-              },
-              "blocks": {}
-            },
-            "spacer_MVek93": {
-              "type": "spacer",
-              "settings": {
-                "direction": false,
-                "space_lg": 4,
-                "space_md": 4,
-                "space": 4
-              },
-              "blocks": {}
-            },
-            "text_YHBMin": {
-              "type": "text",
-              "settings": {
-                "text": "<p>We ensure secure payment with PEV</p>",
-                "hidden_br_mobile": false,
-                "hidden_on_mobile": false,
-                "ffamily": "",
-                "text_size": "sm",
-                "line_height": "",
-                "font_weight": "normal",
-                "text_color": "hdt-text-secondary",
-                "countdown": "2025-12-30 15:00:00",
-                "txt_day": "days",
-                "font_size_text_lg": 16,
-                "font_size_text": 14,
-                "letter_spacing_text": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "heading_FkL9Ep",
-            "spacer_MVek93",
-            "text_YHBMin"
+            "heading_4YwXcW"
           ]
         },
         "section-heading-shipping": {
@@ -1116,37 +869,55 @@
           "settings": {
             "design_heading": "1",
             "horizontal": false,
-            "alignment": "left",
+            "alignment": "center",
             "heading_gap": 15,
             "margin_bottom": 30
           },
-          "blocks": {}
+          "blocks": {
+            "heading_section_pwVDMm": {
+              "type": "_heading_section",
+              "name": "t:blocks.section_heading.name",
+              "settings": {
+                "heading": "أنت على بعد ساعات من طلبك! اختر فيرونا لتجربة شحن لا مثيل لها.",
+                "line_height": "",
+                "heading_size": "h3",
+                "text_color": "hdt-text-tertiary",
+                "font_size_heading_lg": 50,
+                "font_size_heading": 24,
+                "letter_spacing_heading": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_section_pwVDMm"
+          ]
         }
       },
       "block_order": [
         "shipping_hRKwnn",
         "shipping_CirHre",
-        "shipping_Qqget3",
-        "shipping_iBieM3"
+        "shipping_Qqget3"
       ],
       "settings": {
-        "content_align": "left",
+        "content_align": "center",
         "align_center": false,
-        "icon_design": "default",
+        "icon_design": "circle",
         "use_border": false,
         "space_padding": false,
         "icon_size": "medium",
         "icon_color": "hdt-icon-secondary",
-        "col_dk": "4",
-        "col_tb": "2",
-        "col_mb": "1",
-        "carousel_mobile": true,
+        "col_dk": "3",
+        "col_tb": "3",
+        "col_mb": "2",
+        "carousel_mobile": false,
         "dot_color": "",
         "dot_rounded": true,
-        "colors_by_section": false,
-        "color_scheme": "scheme-1",
-        "background_opacity": 0,
-        "section_layout": "container",
+        "colors_by_section": true,
+        "color_scheme": "scheme-f9f9abd1-e237-4c68-b90e-adf2f13283a6",
+        "background_opacity": 1,
+        "section_layout": "full_width",
+        "section_background": "shopify://shop_images/product4.1.webp",
         "hdt_background_parallax": false,
         "mg": "",
         "mg_mb": "",
@@ -1161,7 +932,6 @@
     "featured_collection_NetARf",
     "shipping_VHTMXh",
     "testimonial_section_QnnqhY",
-    "featured_collection_PTq36A",
     "shipping_9pXycT"
   ]
 }

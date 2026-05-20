@@ -165,56 +165,6 @@
     border-radius: 0px;
   }
 }
-
-/* --- CUSTOM COLLECTION DESIGN 16 MODIFICATIONS --- */
-
-/* 1. Base card styling with larger rounded corners and modern drop shadow */
-.hdt-collection-style16 .hdt-collection-inner {
-  border-radius: 16px !important;
-  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.06) !important;
-  background-color: #ffffff !important;
-  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
-  overflow: hidden !important;
-}
-.hdt-collection-item.hdt-collection-style16{
-  box-shadow: -18px 11px 20px #00000012;
-  border-radius: 16px;
-}
-
-/* 3. Force top image elements to match the card's top rounded corners */
-.hdt-collection-style16 .hdt-collection-inner img,
-.hdt-collection-style16 .hdt-collection-inner .hdt-image-wm {
-  border-radius: 16px 16px 0 0 !important;
-}
-
-/* 4. Content block wrapper layout (Flattened from your theme nested code) */
-.hdt-collection-style16 .hdt-collection-content {
-  width: 100% !important;
-  position: static !important;
-  max-width: 100% !important;
-  overflow: hidden !important;
-  background-color: #ffffff !important;
-  border-radius: 0 0 16px 16px !important;
-}
-
-/* 5. Clean text spacing and alignment below the image */
-.hdt-collection-style16 .hdt-collection-content .hdt-collection-wrapper {
-  border-radius: 0px !important;
-  padding-top: 18px !important;
-  padding-bottom: 18px !important;
-  padding-left: 10px !important;
-  padding-right: 10px !important;
-  text-align: center !important;
-}
-
-/* 6. Typography color and weight adjustments for title links */
-.hdt-collection-style16 .hdt-collection-content a {
-  color: #111111 !important;
-  font-weight: 600 !important;
-  font-size: 16px !important;
-  text-decoration: none !important;
-}
-
 :where(.hdt-collection-style9,.hdt-collection-style10) .hdt-collection-wrapper .hdt-collection-count {
   display: none;
 }
