@@ -804,6 +804,7 @@
       "fulfillment_status": "Fulfillment Status",
       "discount": "Discount",
       "shipping": "Shipping",
+      "custom-shipping":"Custom Shipping",
       "tax": "Tax",
       "product": "Product",
       "sku": "SKU",

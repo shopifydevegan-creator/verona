@@ -142,10 +142,16 @@
   font-size: 16px !important;
   text-decoration: none !important;
 }
-@media (max-width: 767px){
+@media (max-width: 1150px){
  .hdt-collections-list.hdt-slides-2 {
     --slide-size: 43% !important;
     --slide-spacing: 12px !important;
+}
+.hdt-sec-collections-list .hdt-container{
+    padding-inline: 0;
+    .hdt-collection-item:first-child{
+        margin-inline-start: 15px;
+    }
 }
 }
 /* end collection list */
@@ -187,6 +193,14 @@
  .hdt-product-carousel .hdt-slides-2 {
     --slide-size: 44%;
 }}
+ @media (max-width: 1150px){
+ .hdt-featured-collection .hdt-container {
+    padding-inline: 0;
+    .hdt-card-product:first-child{
+        margin-inline-start: 15px;
+    }
+}
+}
 /* end featured collection */
 
 
