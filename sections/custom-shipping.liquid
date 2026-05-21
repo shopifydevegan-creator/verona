@@ -112,6 +112,12 @@
       <div id="Scroller-{{ section.id }}" class="hdt-row-grid hdt-row-grid--modify hdt-grid-cols-{{ col_mb }} md:hdt-grid-cols-{{ col_tb }} lg:hdt-grid-cols-{{ col_dk }}{{ carousel_class }}">
         {% content_for 'blocks' %}
       </div>
+      <div class="hdt-whatsapp-section">
+        <a href="https://wa.me/96590900635" target="_blank" class="whattsapp-link hdt-flex hdt-align-center hdt-gap-2" >
+          <img src="{{ 'whatsapp.png' | asset_url }}" alt="whatsapp" width="30" height="30" style="margin-left:8px;">
+          <span class="hdt-truncate">يمكنك التواصل معنا دائما من خلال واتساب : 96590900635</span>
+        </a>
+      </div>
       {{ shipping_dots }}
     </hdt-scrollsnap>
   </div>
@@ -119,7 +125,7 @@
 {% schema %}
   {
     "name": "Custom Shipping",
-    "class": "hdt-custom-shipping hdt-section",
+    "class": "hdt-shipping  hdt-custom-shipping hdt-section",
     "disabled_on": {
       "groups": ["custom.system"]
     },

@@ -1,7 +1,23 @@
 .hdt-card-product hdt-wishlist:not([action="add"]) svg {
   color: rgb(236, 35, 97);
 }
-
+.hdt-card-product__info{
+    .hdt-card-product__title{
+        -webkit-line-clamp: 1;
+    }
+    .star-rating__stars{
+        img{
+            width: 20px;
+            height: 20px;
+        }
+        @media (max-width:767px) {
+            img{
+            width: 15px;
+            height: 15px;
+        }
+        }
+    }
+}
 /* read more button */
 .hdt-pagination-view_all {
   position: absolute;
@@ -75,10 +91,10 @@
 
 /* custom shipping */
 .hdt-custom-shipping .hdt-row-grid{
-    /* gap: 0; */
-    /* display: flex;
+    gap: 20px !important;
+    display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
     .hdt-ship-item-wrap:hover .hdt-icon{
         color: black !important;
     }
@@ -87,10 +103,59 @@
     animation: none !important;
     .hdt-icon {
         color: black;
-        
     }
 }
+
 }
+.hdt-custom-shipping .hdt-ship-item-wrap {
+    background: none !important;
+    border: none !important;
+    width: fit-content !important;
+    padding: 0 !important;
+    .hdt-ship-icon{
+        width: 120px;
+        height: 120px;
+    }
+    @media(max-width:767px){
+        .hdt-ship-icon{
+            width: 70px;
+            height: 70px;
+        }
+    }
+    img{
+        width: 60px;
+        height: 60px;
+    }
+    @media(max-width:767px){
+        img{
+            width: 45px;
+            height: 45px;
+        }
+    }
+}
+.hdt-whatsapp-section{
+    margin: 20px auto 0 auto;
+    width: fit-content;
+}
+.hdt-custom-shipping a.whattsapp-link{
+        display: inline-flex;
+        align-items: center;
+        background-color: #ffffff;
+        border: 1px solid #e5e5e5;
+        border-radius: 6px;
+        padding: 10px 24px;
+        text-decoration: none;
+        transition: box-shadow 0.2s ease;
+        max-width: 100%;
+    }
+.hdt-custom-shipping .hdt-truncate{
+    font-size: 14px;
+    font-weight: 600;
+    color: #333333;
+    white-space: nowrap;
+    line-height: normal;
+}
+
 /* end shipping */
 
 /* collection list */
@@ -172,27 +237,25 @@
 .hdt-collection-style17 .hdt-collection-img::before {
     content: '';
     position: absolute;
-    top: 60%; left: 0; right: 0; bottom: 0;
-    background-color: rgba(255, 223, 0, 0);
-    backdrop-filter: blur(0px);
-    -webkit-backdrop-filter: blur(0px);
+    top: 30%; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(180deg, #111e2d0d 0% 45%, #111e2dc7);
     z-index: 1; /* Below the text and gradient */
     pointer-events: none;
     transition: all 0.4s ease !important;
 }
 
 .hdt-collection-style17:hover .hdt-collection-img::before {
-    background-color: rgba(255, 223, 0, 0.25) !important;
-    backdrop-filter: blur(4px) !important;
-    -webkit-backdrop-filter: blur(4px) !important;
+    background: linear-gradient(180deg,#111e2d0d 0% 45%,#c9a97acc);
+    /* backdrop-filter: blur(4px) !important;
+    -webkit-backdrop-filter: blur(4px) !important; */
 }
 
 /* Ensure all cards have the same height by fixing the aspect ratio */
-.hdt-collection-style17 .hdt-collection-img,
+/* .hdt-collection-style17 .hdt-collection-img,
 .hdt-collection-style17 .hdt-ratio {
     --aspect-ratioapt: 1/1 !important;
     aspect-ratio: 1/1 !important;
-}
+} */
 
 .hdt-collection-style17 .hdt-ratio img {
     object-fit: cover !important;
@@ -255,9 +318,9 @@
     background-color: #374151 !important; /* Slightly lighter on hover */
     transform: scale(1.05) !important;
 }
-.hdt-collection-item.hdt-collection-style17.hdt-slider__slide:not(:first-child) {
+/* .hdt-collection-item.hdt-collection-style17.hdt-slider__slide:not(:first-child) {
     padding-inline-start: 8px;
-}
+} */
 @media (min-width: 768px) and (max-width: 1149px) {
     .hdt-collections-list.hdt-has-collection17 .hdt-slider__viewport .hdt-slider__slide {
         flex: 0 0 calc(var(--slide-size) - 5%);
@@ -329,6 +392,14 @@
 
 
 /* testimonial */
+ @media (max-width: 1150px){
+    .hdt-ttmn .hdt-container{
+        padding-inline: 0;
+    }
+    .hdt-slider__container .hdt-testimonial-item:first-child{
+        margin-inline-start: 15px;
+     }
+ }
 .hdt-testimonial-item .testimonial-inner .hdt-quote-content {
   padding: 20px;
 }
@@ -355,3 +426,14 @@
     }
 }
 /* end footer */
+/* footer groub */
+.hdt-footer-section {
+  border-top: 1px solid #d2b9941a;
+}
+@media (max-width: 767px){
+.hdt-container.hdt-footer-collapse-true.hdt-relative{
+    display: flex;
+    justify-content: center;
+}
+}
+/* enfd footer group */
