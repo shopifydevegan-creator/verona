@@ -71,21 +71,26 @@
         
     }
 }
-.hdt-container-full.hdt-section-spacing::after{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #182B40;
-    z-index: 1;
+/* end shipping */
+
+/* custom shipping */
+.hdt-custom-shipping .hdt-row-grid{
+    /* gap: 0; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    .hdt-ship-item-wrap:hover .hdt-icon{
+        color: black !important;
+    }
+     .hdt-ship-icon{
+    background-color: #eee4de;
+    animation: none !important;
+    .hdt-icon {
+        color: black;
+        
+    }
 }
-/* .hdt-container-full.hdt-section-spacing .hdt-row-grid &
-.hdt-container-full.hdt-section-spacing .hdt-content-inner{
-    z-index: 3;
-    position: relative;
-} */
+}
 /* end shipping */
 
 /* collection list */
@@ -154,6 +159,121 @@
     }
 }
 }
+
+/* 17 */
+.hdt-collection-style17 .hdt-collection-inner {
+    border-radius: 21px !important;
+    overflow: hidden !important;
+    position: relative !important;
+    transition: box-shadow 0.3s ease !important;
+}
+
+/* Hover effect: Yellow blur overlay (above image, below text) */
+.hdt-collection-style17 .hdt-collection-img::before {
+    content: '';
+    position: absolute;
+    top: 50%; left: 0; right: 0; bottom: 0;
+    background-color: rgba(255, 223, 0, 0);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    z-index: 1; /* Below the text and gradient */
+    pointer-events: none;
+    transition: all 0.4s ease !important;
+}
+
+.hdt-collection-style17:hover .hdt-collection-img::before {
+    background-color: rgba(255, 223, 0, 0.25) !important;
+    backdrop-filter: blur(4px) !important;
+    -webkit-backdrop-filter: blur(4px) !important;
+}
+
+/* Ensure all cards have the same height by fixing the aspect ratio */
+.hdt-collection-style17 .hdt-collection-img,
+.hdt-collection-style17 .hdt-ratio {
+    --aspect-ratioapt: 1/1 !important;
+    aspect-ratio: 1/1 !important;
+}
+
+.hdt-collection-style17 .hdt-ratio img {
+    object-fit: cover !important;
+    height: 100% !important;
+    width: 100% !important;
+}
+
+/* Gradient overlay to make text readable */
+.hdt-collection-style17 .hdt-collection-img::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 65%;
+    background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0) 100%);
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* Content wrapper positioning */
+.hdt-collection-style17 .hdt-collection-content {
+    top: auto !important;
+    left: auto !important;
+    right: 30px !important;
+    bottom: 30px !important;
+    transform: none !important;
+    z-index: 2;
+    /* width: auto !important; */
+    position: absolute !important;
+}
+
+/* Ensure items are right-aligned */
+.hdt-collection-style17 .hdt-collection-wrapper {
+    align-items: flex-start !important;
+    padding: 0 !important;
+}
+
+/* Title styling */
+.hdt-collection-style17 .hdt-collection-title-text {
+    color: #ffffff !important;
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    margin-bottom: 5px !important;
+}
+
+/* Button styling */
+.hdt-collection-style17 .hdt-collection-title {
+    background-color: #1a2a3a !important; /* Dark slate grey matching Image 1 */
+    color: #d0b4a6 !important;
+    padding: 10px 24px !important;
+    border-radius: 8px !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+    transition: background-color 0.3s ease, transform 0.2s ease !important;
+}
+
+.hdt-collection-style17 .hdt-collection-title:hover {
+    background-color: #374151 !important; /* Slightly lighter on hover */
+    transform: scale(1.05) !important;
+}
+.hdt-collection-item.hdt-collection-style17.hdt-slider__slide:not(:first-child) {
+    padding-inline-start: 8px;
+}
+@media (min-width: 768px) and (max-width: 1149px) {
+    .hdt-collections-list.hdt-has-collection17 .hdt-slider__viewport .hdt-slider__slide {
+        flex: 0 0 calc(var(--slide-size) - 5%);
+    }
+}
+@media (min-width: 1150px) {
+    .hdt-collections-list.hdt-has-collection17 .hdt-slider__viewport .hdt-slider__slide {
+        flex: 0 0 calc(var(--slide-size) - 1%);
+    }
+}
+@media (max-width: 767px) {
+    .hdt-collections-list.hdt-has-collection17 .hdt-slider__viewport .hdt-slider__slide {
+        flex: 0 0 calc(var(--slide-size) - 25%);
+    }
+}
+/* 17 */
 /* end collection list */
 
 /* featured collection*/

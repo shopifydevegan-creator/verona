@@ -728,9 +728,161 @@
         "background_opacity": 1,
         "section_layout": "wrapper_container",
         "hdt_background_parallax": false,
-        "mg": ",,50px,",
+        "mg": "",
         "mg_mb": ",,30px,",
         "pd": "48px,,48px,",
+        "pd_mb": "16px,,16px,"
+      }
+    },
+    "collections_list_Wb7Xca": {
+      "type": "collections-list",
+      "blocks": {
+        "collection_item_JqKVza": {
+          "type": "_collection_item",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/list1.webp",
+            "hdt_collection_list_svg": "",
+            "svg_width": 60,
+            "svg_width_mb": 40,
+            "title": "مناسبات خاصة",
+            "collection_link": "",
+            "col_dk": "6",
+            "col_tb": "6",
+            "col_mb": "6"
+          },
+          "blocks": {}
+        },
+        "collection_item_6TTJ8b": {
+          "type": "_collection_item",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/list2.webp",
+            "hdt_collection_list_svg": "",
+            "svg_width": 60,
+            "svg_width_mb": 40,
+            "title": "يمعات عزايم",
+            "collection_link": "",
+            "col_dk": "6",
+            "col_tb": "6",
+            "col_mb": "6"
+          },
+          "blocks": {}
+        },
+        "collection_item_hkKpPU": {
+          "type": "_collection_item",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/collection_list2.webp",
+            "hdt_collection_list_svg": "",
+            "svg_width": 60,
+            "svg_width_mb": 40,
+            "title": "هدايا",
+            "collection_link": "",
+            "col_dk": "6",
+            "col_tb": "6",
+            "col_mb": "6"
+          },
+          "blocks": {}
+        },
+        "section-heading-collections-list": {
+          "type": "section-heading",
+          "static": true,
+          "settings": {
+            "design_heading": "1",
+            "horizontal": false,
+            "alignment": "center",
+            "heading_gap": 15,
+            "margin_bottom": 30
+          },
+          "blocks": {
+            "heading_section_BVzdUV": {
+              "type": "_heading_section",
+              "name": "t:blocks.section_heading.name",
+              "settings": {
+                "heading": "فيرونا معك بكل المناسبات",
+                "line_height": "",
+                "heading_size": "h3",
+                "text_color": "hdt-text-primary",
+                "font_size_heading_lg": 50,
+                "font_size_heading": 24,
+                "letter_spacing_heading": 0
+              },
+              "blocks": {}
+            },
+            "sub_heading_section_QYrcTc": {
+              "type": "_sub_heading_section",
+              "name": "t:blocks.section_heading.sub_heading",
+              "settings": {
+                "text": "<p>نقدم لك تجربة مميزة ولا تنسى في لحظاتك السعيدة.</p>",
+                "hidden_br_mobile": false,
+                "hidden_on_mobile": false,
+                "text_size": "base",
+                "text_color": "hdt-text-secondary",
+                "font_size_text_lg": 16,
+                "font_size_text": 14,
+                "letter_spacing_text": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_section_BVzdUV",
+            "sub_heading_section_QYrcTc"
+          ]
+        }
+      },
+      "block_order": [
+        "collection_item_JqKVza",
+        "collection_item_6TTJ8b",
+        "collection_item_hkKpPU"
+      ],
+      "name": "t:sections.collections-list.name",
+      "settings": {
+        "collection_list": [],
+        "collection_des": "17",
+        "content_size": "base",
+        "content_weight": "semibold",
+        "content_position": "center",
+        "content_space": 20,
+        "show_count": false,
+        "count_label": "Products",
+        "image_rounded": false,
+        "enable_border": false,
+        "image_padding": 30,
+        "image_ratio": "square",
+        "image_size": true,
+        "img_effect": "none",
+        "b_effect": "none",
+        "col_dk": "3",
+        "col_tb": "2",
+        "col_mb": "1",
+        "space_items": "x",
+        "layout_mode": "carousel",
+        "loop": false,
+        "autoplay": 0,
+        "pauseOnHover": false,
+        "navUI": false,
+        "nav_position": "default",
+        "nav_visible": "always",
+        "nav_style": "default",
+        "nav_shape": "default",
+        "nav_size": "small",
+        "nav_hide_mobile": false,
+        "dotUI": false,
+        "pag_style": "default",
+        "pag_rounded": true,
+        "pag_space": 10,
+        "pag_mgt": 10,
+        "pag_hide_mobile": false,
+        "colors_by_section": true,
+        "color_scheme": "scheme-fafad237-b19e-4384-8340-fcf8d3ae39b2",
+        "background_opacity": 1,
+        "section_layout": "container",
+        "hdt_background_parallax": false,
+        "mg": "",
+        "mg_mb": ",,30px,",
+        "pd": "36px,,36px",
         "pd_mb": "16px,,16px,"
       }
     },
@@ -900,16 +1052,16 @@
         "background_opacity": 1,
         "section_layout": "wrapper_container",
         "hdt_background_parallax": false,
-        "mg": ",,50px,",
+        "mg": "",
         "mg_mb": ",,30px,",
         "pd": "48px,,48px,",
         "pd_mb": "16px,,16px,"
       }
     },
-    "shipping_9pXycT": {
-      "type": "shipping",
+    "custom_shipping_9PDVtb": {
+      "type": "custom-shipping",
       "blocks": {
-        "shipping_hRKwnn": {
+        "shipping_tgG3px": {
           "type": "_shipping",
           "settings": {
             "icon_themes": "car",
@@ -917,14 +1069,14 @@
             "icon": ""
           },
           "blocks": {
-            "heading_GVDr7i": {
+            "heading_4JXNpi": {
               "type": "heading",
               "settings": {
                 "heading": "<h3>جودة عالية</h3>",
                 "hidden_br_mobile": false,
                 "hidden_on_mobile": false,
                 "line_height": "",
-                "font_weight": "medium",
+                "font_weight": "normal",
                 "heading_size": "h6",
                 "text_color": "hdt-text-secondary",
                 "font_size_heading_lg": 16,
@@ -935,25 +1087,25 @@
             }
           },
           "block_order": [
-            "heading_GVDr7i"
+            "heading_4JXNpi"
           ]
         },
-        "shipping_CirHre": {
+        "shipping_fUbecd": {
           "type": "_shipping",
           "settings": {
-            "icon_themes": "truck",
+            "icon_themes": "help",
             "image_icon": "shopify://shop_images/express-delivery_1.png",
             "icon": ""
           },
           "blocks": {
-            "heading_K8g4ny": {
+            "heading_f3ircG": {
               "type": "heading",
               "settings": {
                 "heading": "<h3>توصيل سريع</h3>",
                 "hidden_br_mobile": false,
                 "hidden_on_mobile": false,
                 "line_height": "",
-                "font_weight": "medium",
+                "font_weight": "normal",
                 "heading_size": "h6",
                 "text_color": "hdt-text-secondary",
                 "font_size_heading_lg": 16,
@@ -964,10 +1116,10 @@
             }
           },
           "block_order": [
-            "heading_K8g4ny"
+            "heading_f3ircG"
           ]
         },
-        "shipping_Qqget3": {
+        "shipping_3qmNWW": {
           "type": "_shipping",
           "settings": {
             "icon_themes": "refesh",
@@ -975,14 +1127,14 @@
             "icon": ""
           },
           "blocks": {
-            "heading_4YwXcW": {
+            "heading_dJDLRB": {
               "type": "heading",
               "settings": {
                 "heading": "<h3>تغليف فاخر</h3>",
                 "hidden_br_mobile": false,
                 "hidden_on_mobile": false,
                 "line_height": "",
-                "font_weight": "medium",
+                "font_weight": "normal",
                 "heading_size": "h6",
                 "text_color": "hdt-text-secondary",
                 "font_size_heading_lg": 16,
@@ -993,7 +1145,7 @@
             }
           },
           "block_order": [
-            "heading_4YwXcW"
+            "heading_dJDLRB"
           ]
         },
         "section-heading-shipping": {
@@ -1002,19 +1154,19 @@
           "settings": {
             "design_heading": "1",
             "horizontal": false,
-            "alignment": "center",
+            "alignment": "left",
             "heading_gap": 15,
             "margin_bottom": 30
           },
           "blocks": {
-            "heading_section_pwVDMm": {
+            "heading_section_rPDBjg": {
               "type": "_heading_section",
               "name": "t:blocks.section_heading.name",
               "settings": {
                 "heading": "أنت على بعد ساعات من طلبك! اختر فيرونا لتجربة شحن لا مثيل لها.",
                 "line_height": "",
                 "heading_size": "h3",
-                "text_color": "hdt-text-tertiary",
+                "text_color": "hdt-s-text",
                 "font_size_heading_lg": 50,
                 "font_size_heading": 24,
                 "letter_spacing_heading": 0
@@ -1023,15 +1175,16 @@
             }
           },
           "block_order": [
-            "heading_section_pwVDMm"
+            "heading_section_rPDBjg"
           ]
         }
       },
       "block_order": [
-        "shipping_hRKwnn",
-        "shipping_CirHre",
-        "shipping_Qqget3"
+        "shipping_tgG3px",
+        "shipping_fUbecd",
+        "shipping_3qmNWW"
       ],
+      "name": "Custom Shipping",
       "settings": {
         "content_align": "center",
         "align_center": false,
@@ -1047,15 +1200,15 @@
         "dot_color": "",
         "dot_rounded": true,
         "colors_by_section": true,
-        "color_scheme": "scheme-f9f9abd1-e237-4c68-b90e-adf2f13283a6",
+        "color_scheme": "scheme-ce7392e4-e8ef-481b-b0e4-2487c8191ac9",
         "background_opacity": 1,
         "section_layout": "full_width",
-        "section_background": "shopify://shop_images/product4.1.webp",
-        "hdt_background_parallax": false,
+        "section_background": "shopify://shop_images/shipping-banner.png",
+        "hdt_background_parallax": true,
         "mg": "",
-        "mg_mb": "",
+        "mg_mb": ",,30px,",
         "pd": "40px,,40px,",
-        "pd_mb": "40px,,40px,"
+        "pd_mb": "20px,,20px,"
       }
     }
   },
@@ -1065,7 +1218,8 @@
     "featured_collection_NetARf",
     "shipping_VHTMXh",
     "featured_collection_DGaQ6H",
+    "collections_list_Wb7Xca",
     "testimonial_section_QnnqhY",
-    "shipping_9pXycT"
+    "custom_shipping_9PDVtb"
   ]
 }

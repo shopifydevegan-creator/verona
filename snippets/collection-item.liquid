@@ -24,7 +24,7 @@
       </span>
       <a data-pr-href class="hdt-full-width-link"  aria-label="link" href="{{ collection_link }}"></a>
     </div>
-    {%- if title != blank and collection_des != "15" -%}
+    {%- if title != blank and collection_des != "15" and collection_des != "17" -%}
       <div class="hdt-collection-content hdt-absolute hdt-place-self-{{ section.settings.content_position }}">
         <div class="hdt-collection-wrapper hdt-flex hdt-flex-col hdt-justify-center hdt-align-center">
           <a data-pr-href class="hdt-full-width-link"  aria-label="link" href="{{ collection_link }}"></a>
@@ -46,6 +46,14 @@
         <div class="hdt-collection-wrapper hdt-flex hdt-flex-col hdt-justify-center hdt-align-center">
           <span class="hdt-collection-title-text hdt-truncate">{{ title }}</span>
           <a class="hdt-collection-title hdt-truncate hdt-inline-flex hdt-align-center hdt-justify-center hdt-text-{{ section.settings.content_size }} hdt-font-{{ section.settings.content_weight }}" href="{{ collection_link }}">Shop now</a>
+        </div>
+      </div>
+    {% endif %}
+    {% if title != blank and collection_des == "17" %}
+      <div class="hdt-collection-content hdt-absolute hdt-place-self-{{ section.settings.content_position }}">
+        <div class="hdt-collection-wrapper hdt-flex hdt-flex-col hdt-justify-center hdt-align-center">
+          <span class="hdt-collection-title-text hdt-truncate">{{ title }}</span>
+          <a class="hdt-collection-title hdt-truncate hdt-inline-flex hdt-align-center hdt-justify-center hdt-text-{{ section.settings.content_size }} hdt-font-{{ section.settings.content_weight }}" href="{{ collection_link }}">أكتشف المزيد</a>
         </div>
       </div>
     {% endif %}
