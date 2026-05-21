@@ -1,6 +1,233 @@
-.hdt-main-collection-content{
+.hdt-main-collection-content {
     background-color: #EEE4DD;
 }
-.hdt-shop-control{
+
+.hdt-shop-control {
     margin-top: 0 !important;
 }
+
+.hdt-section-heading.hdt-main-heading {
+    background-color: #EEE4DD;
+    border-top: 1px solid #D0B4A6;
+    padding-top: 48px;
+
+    .hdt-section-spacing {
+        padding: 0;
+    }
+}
+@media (max-width: 1150px) {
+    #template--21709768359983__collections_list_78tJpH .hdt-container {
+        padding-inline: 0;
+
+        .hdt-collection-item:first-child {
+            margin-inline-start: 15px;
+        }
+    }
+}
+
+/* ============================================================
+   COLLECTION LIST — DESIGN 18  (horizontal pill cards, RTL)
+   Class: .hdt-collections-list.hdt-has-collection18
+   ============================================================ */
+
+/* ── Wrapper: make the grid a single row, no overflow clip ── */
+.hdt-collections-list.hdt-has-collection18 .hdt-slider__viewport {
+    overflow: visible !important;
+}
+
+/* ── Each slide: remove any forced ratio from the parent ── */
+.hdt-collections-list.hdt-has-collection18 .hdt-slider__slide,
+.hdt-collections-list.hdt-has-collection18 .hdt-col {
+    height: auto !important;
+}
+
+/* ══════════════════════════════════════════════════════════
+   CARD OUTER (.hdt-collection-item.hdt-collection-style18)
+   ══════════════════════════════════════════════════════════ */
+.hdt-collections-list.hdt-has-collection18 .hdt-slider__viewport {
+    overflow: hidden !important;
+}
+
+.hdt-collection-item.hdt-collection-style18 {
+    /* Reset any inherited sizing */
+    height: auto !important;
+}
+
+/* ── Inner container: horizontal flex, pill shape ── */
+.hdt-collection-style18 .hdt-collection-inner {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 8px;
+    border-radius: 12px !important;
+    /* pill shape */
+    background-color: #EEE4DD !important;
+    overflow: hidden !important;
+    padding: 12px !important;
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06) !important; */
+    transition: background-color 0.3s ease, transform 0.25s ease !important;
+    position: relative !important;
+    min-height: 72px !important;
+    cursor: pointer;
+}
+
+.hdt-collection-style18 .hdt-collection-inner:hover {
+    /* box-shadow: 0 6px 24px rgba(0, 0, 0, 0.13) !important;
+  transform: translateY(-2px) !important; */
+    background-color: #c6a49066 !important;
+}
+
+/* ── Image block: circular, fixed size, on inline-end (left in RTL) ── */
+.hdt-collection-style18 .hdt-collection-img {
+    flex: 0 0 auto !important;
+    width: 68px !important;
+    height: 68px !important;
+    border-radius: 12px !important;
+    overflow: hidden !important;
+    position: relative !important;
+    /* Remove ::before / ::after overlays from other designs */
+}
+
+.hdt-collection-style18 .hdt-collection-img::before,
+.hdt-collection-style18 .hdt-collection-img::after {
+    display: none !important;
+    content: none !important;
+}
+
+/* Make the ratio wrapper fill the circle */
+.hdt-collection-style18 .hdt-collection-img .hdt-ratio {
+    width: 100% !important;
+    height: 100% !important;
+    aspect-ratio: 1 / 1 !important;
+}
+
+/* Image itself */
+.hdt-collection-style18 .hdt-collection-img img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    object-position: center !important;
+}
+
+/* Hide the full-width overlay link so it doesn't block layout */
+.hdt-collection-style18 .hdt-collection-img .hdt-full-width-link {
+    border-radius: 50% !important;
+}
+
+/* ── Text / content: fills remaining space, on inline-start (right in RTL) ── */
+.hdt-collection-style18 .hdt-c18-content {
+    flex: 1 1 auto !important;
+    order: 1 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    /* push text to the right (RTL start) */
+    /* padding-inline-start: 12px !important;
+  padding-inline-end: 16px !important;
+  position: static !important; */
+    /* Override absolute positioning from the base style */
+    /* top: auto !important;
+  left: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  transform: none !important;
+  width: auto !important;
+  max-width: none !important;
+  z-index: 2; */
+}
+
+/* ── Link wrapping the title ── */
+.hdt-collection-style18 .hdt-c18-link {
+    display: flex !important;
+    align-items: center !important;
+    text-decoration: none !important;
+    color: #1a2a3a !important;
+    width: 100%;
+}
+
+/* ── Title text ── */
+.hdt-collection-style18 .hdt-c18-title {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    gap: 4px !important;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    color: #1a2a3a !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    max-width: 100% !important;
+    /* direction: rtl !important; */
+    transition: color 0.25s ease !important;
+}
+
+.hdt-collection-style18 .hdt-c18-link:hover .hdt-c18-title {
+    color: #c9a97a !important;
+}
+
+/* ── Chevron arrow ── */
+.hdt-collection-style18 .hdt-c18-chevron {
+    font-size: 18px !important;
+    line-height: 1 !important;
+    font-weight: 400 !important;
+    color: inherit !important;
+    display: inline-block !important;
+    flex-shrink: 0 !important;
+    transition: transform 0.25s ease !important;
+}
+
+.hdt-collection-style18 .hdt-c18-link:hover .hdt-c18-chevron {
+    transform: translateX(-3px) !important;
+}
+
+/* ── Suppress the base hdt-collection-content absolute overlay for style18 ── */
+/* (The default .hdt-collection-content block is excluded via Liquid for des==18) */
+
+/* ══════════════════════════════════════════════════════════
+   RESPONSIVE TWEAKS
+   ══════════════════════════════════════════════════════════ */
+
+/* Tablet */
+ @media (min-width: 768px) and (max-width: 1149px) {
+  .hdt-collections-list.hdt-has-collection18 .hdt-slider__viewport .hdt-slider__slide {
+    flex: 0 0 calc(var(--slide-size) - 5%) !important;
+  }
+}
+  /*
+  .hdt-collection-style18 .hdt-collection-img {
+    width: 60px !important;
+    height: 60px !important;
+  }
+  .hdt-collection-style18 .hdt-c18-title {
+    font-size: 14px !important;
+  }
+} */
+
+/* Desktop */
+/* @media (min-width: 1150px) {
+  .hdt-collections-list.hdt-has-collection18 .hdt-slider__viewport .hdt-slider__slide {
+    flex: 0 0 calc(var(--slide-size) - 0.5%) !important;
+  }
+} */
+
+/* Mobile */
+ @media (max-width: 767px) {
+    .hdt-collections-list.hdt-has-collection18 .hdt-slider__viewport .hdt-slider__slide {
+        flex: 0 0 calc(var(--slide-size) - 10%) !important;
+    }
+}
+    /*
+    .hdt-collection-style18 .hdt-collection-inner {
+        min-height: 62px !important;
+        border-radius: 40px !important;
+    }
+    .hdt-collection-style18 .hdt-collection-img {
+        width: 54px !important;
+        height: 54px !important;
+    }
+    .hdt-collection-style18 .hdt-c18-title {
+        font-size: 13px !important;
+    }
+    } */
+/* ── end design 18 ── */

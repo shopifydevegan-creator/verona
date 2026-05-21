@@ -11,6 +11,58 @@
   "sections": {
     "collections_list_simple_4yRUED": {
       "type": "top-list-collections",
+      "blocks": {
+        "cat_f4n6h6": {
+          "type": "cat",
+          "settings": {
+            "collection": "العروض-الخاصة",
+            "icon": ""
+          }
+        },
+        "cat_UytmGP": {
+          "type": "cat",
+          "settings": {
+            "collection": "التوزيعات",
+            "icon": ""
+          }
+        },
+        "cat_69rztx": {
+          "type": "cat",
+          "settings": {
+            "collection": "الموالح",
+            "icon": ""
+          }
+        },
+        "cat_xhTKqL": {
+          "type": "cat",
+          "settings": {
+            "collection": "بوكسات-الشوكولاتة",
+            "icon": ""
+          }
+        },
+        "cat_V37dr3": {
+          "type": "cat",
+          "settings": {
+            "collection": "الكيك",
+            "icon": ""
+          }
+        },
+        "cat_zW94kA": {
+          "type": "cat",
+          "settings": {
+            "collection": "صواني-الضيافة",
+            "icon": ""
+          }
+        }
+      },
+      "block_order": [
+        "cat_f4n6h6",
+        "cat_UytmGP",
+        "cat_69rztx",
+        "cat_xhTKqL",
+        "cat_V37dr3",
+        "cat_zW94kA"
+      ],
       "disabled": true,
       "settings": {
         "show_type": "all",
@@ -21,12 +73,150 @@
         "colors_by_section": false,
         "color_scheme": "scheme-1",
         "background_opacity": 1,
-        "section_layout": "container",
+        "section_layout": "wrapper_container",
         "hdt_background_parallax": false,
         "mg": "",
         "mg_mb": "",
         "pd": "",
         "pd_mb": ""
+      }
+    },
+    "collections_list_78tJpH": {
+      "type": "collections-list",
+      "blocks": {
+        "collection_item_WTdYWG": {
+          "type": "_collection_item",
+          "settings": {
+            "collection": "",
+            "hdt_collection_list_svg": "",
+            "svg_width": 60,
+            "svg_width_mb": 40,
+            "title": "Collection name",
+            "collection_link": "",
+            "col_dk": "6",
+            "col_tb": "6",
+            "col_mb": "6"
+          },
+          "blocks": {}
+        },
+        "collection_item_ePGXhU": {
+          "type": "_collection_item",
+          "settings": {
+            "collection": "",
+            "hdt_collection_list_svg": "",
+            "svg_width": 60,
+            "svg_width_mb": 40,
+            "title": "Collection name",
+            "collection_link": "",
+            "col_dk": "6",
+            "col_tb": "6",
+            "col_mb": "6"
+          },
+          "blocks": {}
+        },
+        "collection_item_MiMn6P": {
+          "type": "_collection_item",
+          "settings": {
+            "collection": "",
+            "hdt_collection_list_svg": "",
+            "svg_width": 60,
+            "svg_width_mb": 40,
+            "title": "Collection name",
+            "collection_link": "",
+            "col_dk": "6",
+            "col_tb": "6",
+            "col_mb": "6"
+          },
+          "blocks": {}
+        },
+        "collection_item_jzL8M3": {
+          "type": "_collection_item",
+          "settings": {
+            "collection": "",
+            "hdt_collection_list_svg": "",
+            "svg_width": 60,
+            "svg_width_mb": 40,
+            "title": "Collection name",
+            "collection_link": "",
+            "col_dk": "6",
+            "col_tb": "6",
+            "col_mb": "6"
+          },
+          "blocks": {}
+        },
+        "section-heading-collections-list": {
+          "type": "section-heading",
+          "static": true,
+          "settings": {
+            "design_heading": "1",
+            "horizontal": false,
+            "alignment": "left",
+            "heading_gap": 15,
+            "margin_bottom": 30
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "collection_item_WTdYWG",
+        "collection_item_ePGXhU",
+        "collection_item_MiMn6P",
+        "collection_item_jzL8M3"
+      ],
+      "name": "t:sections.collections-list.name",
+      "settings": {
+        "collection_list": [
+          "العروض-الخاصة",
+          "التوزيعات",
+          "الموالح",
+          "بوكسات-الشوكولاتة",
+          "الكيك",
+          "صواني-الضيافة"
+        ],
+        "collection_des": "18",
+        "content_size": "base",
+        "content_weight": "semibold",
+        "content_position": "center",
+        "content_space": 20,
+        "show_count": false,
+        "count_label": "Products",
+        "image_rounded": false,
+        "enable_border": false,
+        "image_padding": 30,
+        "image_ratio": "square",
+        "image_size": true,
+        "img_effect": "zoom",
+        "b_effect": "overlay",
+        "col_dk": "4",
+        "col_tb": "3",
+        "col_mb": "2",
+        "space_items": "20",
+        "layout_mode": "carousel",
+        "loop": false,
+        "autoplay": 0,
+        "pauseOnHover": false,
+        "navUI": false,
+        "nav_position": "default",
+        "nav_visible": "always",
+        "nav_style": "default",
+        "nav_shape": "default",
+        "nav_size": "small",
+        "nav_hide_mobile": false,
+        "dotUI": false,
+        "pag_style": "default",
+        "pag_rounded": true,
+        "pag_space": 10,
+        "pag_mgt": 10,
+        "pag_hide_mobile": false,
+        "colors_by_section": false,
+        "color_scheme": "",
+        "background_opacity": 0,
+        "section_layout": "wrapper_container",
+        "hdt_background_parallax": false,
+        "mg": "",
+        "mg_mb": ",,30px,",
+        "pd": "48px,,48px,",
+        "pd_mb": "16px,,16px"
       }
     },
     "main_heading_PHNGje": {
@@ -38,12 +228,12 @@
             "text": "{{ collection.title }}",
             "line_height": "",
             "font_family": "hdt-font-1",
-            "text_size": "2xl",
+            "text_size": "custom",
             "text_color": "hdt-s-text",
             "italic": false,
             "uppercase": false,
-            "font_size_text_lg": 16,
-            "font_size_text": 14,
+            "font_size_text_lg": 32,
+            "font_size_text": 20,
             "letter_spacing_text": 0
           },
           "blocks": {}
@@ -54,7 +244,7 @@
       ],
       "settings": {
         "use_dynamic_source": false,
-        "color_scheme": "scheme-77e4ef58-56a9-4631-876a-12098ba7d57d",
+        "color_scheme": "scheme-0da2beb3-8a7d-446d-8cee-1e84dac70f57",
         "bg_overlay": 54,
         "space_item": 0,
         "mg": "0,0,0,0",
@@ -126,6 +316,7 @@
   },
   "order": [
     "collections_list_simple_4yRUED",
+    "collections_list_78tJpH",
     "main_heading_PHNGje",
     "main-collection"
   ]

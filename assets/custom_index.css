@@ -1,0 +1,200 @@
+/* collection list */
+.hdt-collections-list.hdt-has-collection16 .hdt-slider__viewport {
+    /* overflow: visible !important; */
+    max-width: 100%;
+}
+
+/* --- CUSTOM COLLECTION DESIGN 16 MODIFICATIONS --- */
+
+/* 1. Base card styling with larger rounded corners and modern drop shadow */
+.hdt-collection-style16 .hdt-collection-inner {
+    border-radius: 16px !important;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.06) !important;
+    background-color: #ffffff !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+    overflow: hidden !important;
+}
+
+.hdt-collection-item.hdt-collection-style16 {
+    box-shadow: -18px 11px 20px #00000012;
+    border-radius: 16px;
+}
+
+/* 3. Force top image elements to match the card's top rounded corners */
+.hdt-collection-style16 .hdt-collection-inner img,
+.hdt-collection-style16 .hdt-collection-inner .hdt-image-wm {
+    border-radius: 16px 16px 0 0 !important;
+}
+
+/* 4. Content block wrapper layout (Flattened from your theme nested code) */
+.hdt-collection-style16 .hdt-collection-content {
+    width: 100% !important;
+    position: static !important;
+    max-width: 100% !important;
+    overflow: hidden !important;
+    background-color: #ffffff !important;
+    border-radius: 0 0 16px 16px !important;
+}
+
+/* 5. Clean text spacing and alignment below the image */
+.hdt-collection-style16 .hdt-collection-content .hdt-collection-wrapper {
+    border-radius: 0px !important;
+    padding-top: 18px !important;
+    padding-bottom: 18px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    text-align: center !important;
+}
+
+/* 6. Typography color and weight adjustments for title links */
+.hdt-collection-style16 .hdt-collection-content a {
+    color: #111111 !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    text-decoration: none !important;
+}
+
+@media (max-width: 1150px) {
+    .hdt-collections-list.hdt-has-collection16 .hdt-slider__viewport .hdt-slider__slide {
+        flex: 0 0 calc(var(--slide-size) - 5%);
+        --slide-spacing: 12px !important;
+    }
+
+    .hdt-sec-collections-list .hdt-container {
+        padding-inline: 0;
+
+        .hdt-collection-item:first-child {
+            margin-inline-start: 15px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .hdt-collections-list.hdt-has-collection16 .hdt-slider__viewport .hdt-slider__slide {
+        flex: 0 0 calc(var(--slide-size) - 25%) !important;
+    }
+}
+
+/* 17 */
+.hdt-collection-style17 .hdt-collection-inner {
+    border-radius: 21px !important;
+    overflow: hidden !important;
+    position: relative !important;
+    transition: box-shadow 0.3s ease !important;
+}
+
+/* Hover effect: Yellow blur overlay (above image, below text) */
+.hdt-collection-style17 .hdt-collection-img::before {
+    content: '';
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, #111e2d0d 0% 45%, #111e2dc7);
+    z-index: 1;
+    /* Below the text and gradient */
+    pointer-events: none;
+    transition: all 0.4s ease !important;
+}
+
+.hdt-collection-style17:hover .hdt-collection-img::before {
+    background: linear-gradient(180deg, #111e2d0d 0% 45%, #c9a97acc);
+    /* backdrop-filter: blur(4px) !important;
+    -webkit-backdrop-filter: blur(4px) !important; */
+}
+
+/* Ensure all cards have the same height by fixing the aspect ratio */
+/* .hdt-collection-style17 .hdt-collection-img,
+.hdt-collection-style17 .hdt-ratio {
+    --aspect-ratioapt: 1/1 !important;
+    aspect-ratio: 1/1 !important;
+} */
+
+.hdt-collection-style17 .hdt-ratio img {
+    object-fit: cover !important;
+    height: 100% !important;
+    width: 100% !important;
+}
+
+/* Gradient overlay to make text readable */
+.hdt-collection-style17 .hdt-collection-img::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 65%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0) 100%);
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* Content wrapper positioning */
+.hdt-collection-style17 .hdt-collection-content {
+    top: auto !important;
+    left: auto !important;
+    right: 30px !important;
+    bottom: 30px !important;
+    transform: none !important;
+    z-index: 2;
+    /* width: auto !important; */
+    position: absolute !important;
+}
+
+/* Ensure items are right-aligned */
+.hdt-collection-style17 .hdt-collection-wrapper {
+    align-items: flex-start !important;
+    padding: 0 !important;
+}
+
+/* Title styling */
+.hdt-collection-style17 .hdt-collection-title-text {
+    color: #ffffff !important;
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    margin-bottom: 5px !important;
+}
+
+/* Button styling */
+.hdt-collection-style17 .hdt-collection-title {
+    background-color: #1a2a3a !important;
+    /* Dark slate grey matching Image 1 */
+    color: #d0b4a6 !important;
+    padding: 10px 24px !important;
+    border-radius: 8px !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+    transition: background-color 0.3s ease, transform 0.2s ease !important;
+}
+
+.hdt-collection-style17 .hdt-collection-title:hover {
+    background-color: #374151 !important;
+    /* Slightly lighter on hover */
+    transform: scale(1.05) !important;
+}
+
+/* .hdt-collection-item.hdt-collection-style17.hdt-slider__slide:not(:first-child) {
+    padding-inline-start: 8px;
+} */
+@media (min-width: 768px) and (max-width: 1149px) {
+    .hdt-collections-list.hdt-has-collection17 .hdt-slider__viewport .hdt-slider__slide {
+        flex: 0 0 calc(var(--slide-size) - 5%);
+    }
+}
+
+@media (min-width: 1150px) {
+    .hdt-collections-list.hdt-has-collection17 .hdt-slider__viewport .hdt-slider__slide {
+        flex: 0 0 calc(var(--slide-size) - 1%);
+    }
+}
+
+@media (max-width: 767px) {
+    .hdt-collections-list.hdt-has-collection17 .hdt-slider__viewport .hdt-slider__slide {
+        flex: 0 0 calc(var(--slide-size) - 25%);
+    }
+}
+
+/* 17 */
+/* end collection list */
