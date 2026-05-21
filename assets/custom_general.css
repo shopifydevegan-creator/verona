@@ -172,7 +172,7 @@
 .hdt-collection-style17 .hdt-collection-img::before {
     content: '';
     position: absolute;
-    top: 50%; left: 0; right: 0; bottom: 0;
+    top: 60%; left: 0; right: 0; bottom: 0;
     background-color: rgba(255, 223, 0, 0);
     backdrop-filter: blur(0px);
     -webkit-backdrop-filter: blur(0px);
@@ -299,7 +299,11 @@
         }
     }
 }
-.hdt-pr-style13 .hdt-product-form:hover .hdt-card-product__btn-ultra{
+.hdt-pr-style13 .hdt-product-form .hdt-card-product__btn-ultra {
+    background-color: #1a2a3a;
+    color: #C6A490;         
+}
+.hdt-pr-style13 .hdt-product-form:hover .hdt-card-product__btn-ultra {
     background-color: #C6A490;
     color: white;         
 }
