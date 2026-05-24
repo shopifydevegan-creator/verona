@@ -150,8 +150,8 @@
     display: flex !important;
     align-items: center !important;
     justify-content: flex-end !important;
-    gap: 4px !important;
-    font-size: 15px !important;
+    gap: 8px !important;
+    font-size: 1.8rem !important;
     font-weight: 700 !important;
     color: #1a2a3a !important;
     white-space: nowrap !important;
@@ -160,6 +160,7 @@
     max-width: 100% !important;
     /* direction: rtl !important; */
     transition: color 0.25s ease !important;
+    position: relative;
 }
 
 .hdt-collection-style18 .hdt-c18-link:hover .hdt-c18-title {
@@ -167,6 +168,14 @@
 }
 
 /* ── Chevron arrow ── */
+.hdt-collection-style18 .hdt-c18-title::after {
+    content: "\203a";
+    font-size: 18px;
+    line-height: 1;
+    color: #c6a490;
+    flex-shrink: 0;
+    font-weight: 700;
+}
 .hdt-collection-style18 .hdt-c18-chevron {
     font-size: 18px !important;
     line-height: 1 !important;
@@ -231,3 +240,46 @@
     }
     } */
 /* ── end design 18 ── */
+
+/* filter */
+.hdt-filter ul:not(.hdt-filter-group__list--color) .hdt-filter-group__list-item .hdt-facets-checkbox,
+.hdt-filter .hdt-filter-group__list-item:checked+label .hdt-facets-checkbox {
+    background-color: #c6a490 !important;
+    border-radius: 3px !important;
+    border-color: #c6a490 !important;
+}
+.dir--rtl .hdt-filter :checked+label :where(.hdt-facets-checkbox,.hdt-facets-checkbox-color) svg {
+    transform: scale(1) !important;
+}
+.hdt-dialog-drawer__header{
+    background-color: #1a2a3a;
+    color: #c6a490;
+    .hdt-filter-icon span{
+        color: #c6a490;
+        font-size: 20px;
+    }
+    .hdt-dialog-btn__close{
+        border-radius: 50%;
+        background-color: #c6a490 !important;
+        width: 40px;
+        height: 40px;
+        margin-left: 20px;
+        svg{
+            margin: auto !important;
+        }
+    }
+}
+.hdt-popover__body .hdt-popover__inner button:not(:last-child) {
+    border-bottom: 1px solid #C6A49080;
+}
+.hdt-popover__body .hdt-popover__inner button{
+    color: #1a2a3a !important;
+    background-color: white !important;
+}
+.hdt-filter_btn span{
+    color: #1a2a3a !important;
+}
+.hdt-popover__sorting span{
+    color: #1a2a3a !important;
+}
+/* end filter */
