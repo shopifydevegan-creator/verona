@@ -1,0 +1,20 @@
+/* related products */
+.hdt-related-products .hdt-section-spacing #AWDJXTnRXSEdCOWZmN__pr-heading{
+    margin-bottom: -50px !important;
+}
+.hdt-collection-products.hdt-slider__products.hdt-collection-has-pr6{
+    .hdt-card-product__media-wrapp{
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+    }
+    .hdt-card-product__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .hdt-card-product__btn-ultra{
+        background-color: #BC947B;
+    }
+    }
+}
+/* end related products */

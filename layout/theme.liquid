@@ -61,7 +61,7 @@
    {% if template.name == "index" %}
       {{ 'custom_index.css' | asset_url | stylesheet_tag }}
     {% endif %}
-    {% if template.name == "product" and template.suffix != blank %}
+    {% if template.name == "product" %}
       {{ 'custom_product.css' | asset_url | stylesheet_tag }}
     {% endif %}
     {% if template.name == "collection" and template.suffix == blank %}

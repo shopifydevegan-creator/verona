@@ -99,9 +99,15 @@
     background-color: #eee4de;
     animation: none !important;
 
+    
     .hdt-icon {
         color: black;
 
+    }
+}
+@media (min-width: 1150px) and (pointer: fine) {
+    .hdt-icon-circle .hdt-shipping-item:hover .hdt-ship-icon:before {
+        transform: scale(0) !important;
     }
 }
 
