@@ -12,7 +12,7 @@
     "purchase_code": "5a512de3-bc4c-43c1-9bfd-f71796eebd46",
     "color_scheme_body": "scheme-c9476b69-abc7-454f-a946-2d5a9f5f3a37",
     "color_focus": "#56cfe1",
-    "color_scheme_dialog": "scheme-8bb4ec20-1e62-4ffd-8bb5-8884478016f2",
+    "color_scheme_dialog": "scheme-f9f9abd1-e237-4c68-b90e-adf2f13283a6",
     "badge_sale": "#f8a802",
     "badge_new": "#1a7a3a",
     "badge_soldout": "#999999",
@@ -324,7 +324,7 @@
       "scheme-f9f9abd1-e237-4c68-b90e-adf2f13283a6": {
         "settings": {
           "text": "#1a2a3a",
-          "text2": "#eee4de",
+          "text2": "#777777",
           "background": "#ffffff",
           "background_gradient": "",
           "background2": "#1a2a3a",
@@ -333,8 +333,8 @@
           "button_border": "#222222",
           "secondary_button_label": "#222222",
           "accent_color": "#1a2a3a",
-          "line_border": "#dddddd",
-          "overlay": "#000000",
+          "line_border": "#c6a490",
+          "overlay": "#1a2a3a",
           "pr_text": "#222222",
           "price": "#696969",
           "sale_price": "#ec0101",
