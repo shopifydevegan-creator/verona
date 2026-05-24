@@ -1,7 +1,8 @@
 /* collection list */
 .hdt-collections-list.hdt-has-collection16 .hdt-slider__viewport {
-    /* overflow: visible !important; */
+    overflow: visible !important;
     max-width: 100%;
+    overflow-x: clip !important;
 }
 
 /* --- CUSTOM COLLECTION DESIGN 16 MODIFICATIONS --- */
